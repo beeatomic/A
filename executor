@@ -11,9 +11,3 @@ local function Unknown()
     return Color3.fromHex(hex)
 end
 local Color = ExecutorColors[ExecutorName] or Unknown()
-
-Window:Tag({
-    Title = ExecutorName,
-    Color = Color,
-    Radius = 13,
-})
